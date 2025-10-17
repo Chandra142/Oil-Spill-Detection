@@ -44,7 +44,7 @@ pip install numpy opencv-python scikit-image matplotlib Pillow scikit-learn tens
 6. **Save** the model (`oil_spill_rf_model.pkl`) and the scaler (`feature_scaler.pkl`).
 
 ## 👤 Author
-**Afzal Khan**
+**Afzal Khan & Ram Chandra **
 
 ---
 
