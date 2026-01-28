@@ -52,7 +52,7 @@ pip install numpy opencv-python scikit-image matplotlib Pillow scikit-learn tens
 - Tuning with GridSearchCV improved generalization and reduced overfitting
 
 ## 👤 Author
-**Afzal Khan**
+**Afzal Khan & Ram**
 
 ---
 
