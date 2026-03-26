@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for character encoding and responsive design -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Marine Oil Spill Detection - Home</title>
+        <link rel="icon" type="image/png" href="image/logo.png" />
+
+        <!-- Custom css for page -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Icons CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    </head>
+    <body>
+        <header>
+            <div class="container header-inner">
+                <a href="index.html" class="nav-logo-link" aria-label="MarineOS Home">
+                    <img src="image/logo.png" alt="MarineOS Logo" class="nav-logo" />
+                </a>
+                <h1>Marine Oil Spill Detection</h1>
+                <!-- Navigation menu for easy site access -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="map.html">Marine Traffic</a></li>
+                        <li><a href="history.html">Oil Spill History</a></li>
+                        <li><a href="detector.html">Oil Spill Detector</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme" title="Switch to Light Theme">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero section with welcome message -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to the Future of Marine Safety</h2>
+                    <p>
+                        Monitor, analyze, and detect marine oil spills with cutting‑edge technology and analytics.
+                    </p>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <h2 class="section-title">Protecting Marine Ecosystems</h2>
+                    <p class="section-subtitle">Our advanced detection system combines satellite imagery, AI analysis, and real-time monitoring to combat oil pollution</p>
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="image/about.jpg" alt="Oil spill impact comparison" />
+                        </div>
+                        <div class="about-text">
+                            <div class="card glass">
+                                <p class="glow-text" style="-webkit-text-fill-color: initial; background: none; color: var(--accent); font-weight: 600;">Oil spills destroy marine habitats and affect over 800 species annually. Our system provides:</p>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Early spill detection within 2 hours of occurrence</li>
+                                    <li><i class="fas fa-check-circle"></i> 95% accuracy in spill identification using AI</li>
+                                    <li><i class="fas fa-check-circle"></i> Historical data analysis for prevention strategies</li>
+                                </ul>
+                            </div>
+                            <div class="stats">
+                                <div class="stat glass">
+                                    <div class="number" data-counter="500" style="color: var(--primary);">0</div>
+                                    <div style="color: var(--text-muted);">Annual Spills</div>
+                                </div>
+                                <div class="stat glass">
+                                    <div class="number" data-counter="78" style="color: var(--accent);">0</div>
+                                    <div style="color: var(--text-muted);">% Undetected</div>
+                                </div>
+                                <div class="stat glass">
+                                    <div class="number" data-counter="24" style="color: var(--secondary);">0</div>
+                                    <div style="color: var(--text-muted);">/7 Monitoring</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feature section showcasing key offerings -->
+            <section class="features">
+                <div class="feature glass">
+                    <h3>Interactive Map</h3>
+                    <p>Visualize current and past oil spill events on a dynamic interactive map.</p>
+                    <a href="map.html" class="btn">View Map</a>
+                </div>
+                <div class="feature glass">
+                    <h3>Historical Data</h3>
+                    <p>Analyze trends with detailed historical graphs.</p>
+                    <a href="history.html" class="btn">View History</a>
+                </div>
+                <div class="feature glass">
+                    <h3>Image Detection</h3>
+                    <p>Detect potential oil spills using AI‑powered detection.</p>
+                    <a href="detector.html" class="btn">Detect Now</a>
+                </div>
+            </section>
+
+            <!-- Technology Section -->
+            <section class="technology-section">
+                <!-- Animated background elements -->
+                <div class="background-elements">
+                    <div class="bg-circle bg-circle-1"></div>
+                    <div class="bg-circle bg-circle-2"></div>
+                </div>
+
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-title">Technology Powering Detection</h2>
+                        <p class="section-subtitle">
+                            Combining cutting-edge AI with robust infrastructure for real-time environmental monitoring
+                        </p>
+                    </div>
+
+                    <div class="tech-grid">
+                        <!-- Technology Card 1 -->
+                        <div class="tech-card">
+                            <div class="card-icon custom-blue">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="card-title">AI/ML Engine</h3>
+                            <p class="card-description">Deep learning models trained on satellite imagery</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check-circle"></i> TensorFlow/Keras</li>
+                                <li><i class="fas fa-check-circle"></i> Computer Vision</li>
+                                <li><i class="fas fa-check-circle"></i> 95% Accuracy</li>
+                            </ul>
+                            <div class="card-border"></div>
+                        </div>
+
+                        <!-- Technology Card 2 -->
+                        <div class="tech-card">
+                            <div class="card-icon custom-green">
+                                <i class="fas fa-satellite-dish"></i>
+                            </div>
+                            <h3 class="card-title">Satellite Imaging</h3>
+                            <p class="card-description">Real-time data from leading earth observation satellites</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check-circle"></i> Sentinel-2 Integration</li>
+                                <li><i class="fas fa-check-circle"></i> Multispectral Analysis</li>
+                                <li><i class="fas fa-check-circle"></i> NDVI Processing</li>
+                            </ul>
+                            <div class="card-border"></div>
+                        </div>
+
+                        <!-- Technology Card 3 -->
+                        <div class="tech-card">
+                            <div class="card-icon custom-purple">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3 class="card-title">Cloud Infrastructure</h3>
+                            <p class="card-description">Scalable processing powered by modern cloud platforms</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check-circle"></i> AWS EC2/Lambda</li>
+                                <li><i class="fas fa-check-circle"></i> Terraform IaC</li>
+                                <li><i class="fas fa-check-circle"></i> Kubernetes</li>
+                            </ul>
+                            <div class="card-border"></div>
+                        </div>
+
+                        <!-- Technology Card 4 -->
+                        <div class="tech-card">
+                            <div class="card-icon custom-pink">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h3 class="card-title">Geospatial Analysis</h3>
+                            <p class="card-description">Advanced mapping and visualization tools</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check-circle"></i> Leaflet.js</li>
+                                <li><i class="fas fa-check-circle"></i> GeoPandas</li>
+                                <li><i class="fas fa-check-circle"></i> PostGIS</li>
+                            </ul>
+                            <div class="card-border"></div>
+                        </div>
+                    </div>
+
+                    <!-- Stack Visualization -->
+                    <div class="stack-visualization glass">
+                        <h3 class="stack-title">Technology Stack Overview</h3>
+                        <div class="tech-logos">
+                            <!-- First Set -->
+                            <div class="tech-logo" data-tooltip="HTML"><img src="image/l1.png" alt="HTML" /></div>
+                            <div class="tech-logo" data-tooltip="CSS"><img src="image/l2.png" alt="CSS" /></div>
+                            <div class="tech-logo" data-tooltip="JavaScript"><img src="image/l3.png" alt="JavaScript" /></div>
+                            <div class="tech-logo" data-tooltip="Python"><img src="image/l4.png" alt="Python" /></div>
+                            <div class="tech-logo" data-tooltip="NumPy"><img src="image/l5.png" alt="NumPy" /></div>
+                            <div class="tech-logo" data-tooltip="Pandas"><img src="image/l6.png" alt="Pandas" /></div>
+                            <div class="tech-logo" data-tooltip="Flask"><img src="image/l7.png" alt="Flask" /></div>
+                            <div class="tech-logo" data-tooltip="gUnicorn"><img src="image/l8.png" alt="gUnicorn" /></div>
+                            <div class="tech-logo" data-tooltip="OpenCV"><img src="image/l9.png" alt="OpenCV" /></div>
+                            <div class="tech-logo" data-tooltip="scikit"><img src="image/l10.png" alt="scikit" /></div>
+                            
+                            <!-- Second Set for Infinite Loop -->
+                            <div class="tech-logo" data-tooltip="HTML"><img src="image/l1.png" alt="HTML" /></div>
+                            <div class="tech-logo" data-tooltip="CSS"><img src="image/l2.png" alt="CSS" /></div>
+                            <div class="tech-logo" data-tooltip="JavaScript"><img src="image/l3.png" alt="JavaScript" /></div>
+                            <div class="tech-logo" data-tooltip="Python"><img src="image/l4.png" alt="Python" /></div>
+                            <div class="tech-logo" data-tooltip="NumPy"><img src="image/l5.png" alt="NumPy" /></div>
+                            <div class="tech-logo" data-tooltip="Pandas"><img src="image/l6.png" alt="Pandas" /></div>
+                            <div class="tech-logo" data-tooltip="Flask"><img src="image/l7.png" alt="Flask" /></div>
+                            <div class="tech-logo" data-tooltip="gUnicorn"><img src="image/l8.png" alt="gUnicorn" /></div>
+                            <div class="tech-logo" data-tooltip="OpenCV"><img src="image/l9.png" alt="OpenCV" /></div>
+                            <div class="tech-logo" data-tooltip="scikit"><img src="image/l10.png" alt="scikit" /></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works Section -->
+            <section class="how-it-works" style="padding: 8rem 0;">
+                <div class="container">
+                    <h2 class="section-title text-center">How It Works</h2>
+                    <div class="stepper-wrapper" style="display: flex; justify-content: space-between; position: relative; margin-top: 4rem;">
+                        <div class="step glass" style="flex: 1; text-align: center; padding: 2rem; margin: 0 1rem; position: relative; z-index: 2;">
+                            <div class="step-icon" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-satellite"></i></div>
+                            <h4 style="margin-bottom: 0.5rem; color: #fff;">Data Collection</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Real-time satellite imagery ingestion.</p>
+                        </div>
+                        <div class="step glass" style="flex: 1; text-align: center; padding: 2rem; margin: 0 1rem; position: relative; z-index: 2;">
+                            <div class="step-icon" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem;"><i class="fas fa-microchip"></i></div>
+                            <h4 style="margin-bottom: 0.5rem; color: #fff;">AI Processing</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Deep learning models analyze imagery.</p>
+                        </div>
+                        <div class="step glass" style="flex: 1; text-align: center; padding: 2rem; margin: 0 1rem; position: relative; z-index: 2;">
+                            <div class="step-icon" style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 1rem;"><i class="fas fa-bell"></i></div>
+                            <h4 style="margin-bottom: 0.5rem; color: #fff;">Instant Alert</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Immediate notification of detections.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Meet the Team Section -->
+            <section id="meet-team">
+                <div class="container">
+                    <h2>Meet Our Team</h2>
+                    <div class="team-carousel">
+                        <div class="team-carousel-wrapper">
+                            <!-- Team Member 1 -->
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <div class="team-hover-overlay"></div>
+                                    <img src="image/t1.png" alt="Afzal Khan">
+                                </div>
+                                <p class="team-name">Afzal Khan</p>
+                            </div>
+                            
+                            <!-- Team Member 2 -->
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <div class="team-hover-overlay"></div>
+                                    <img src="image/t2.png" alt="Ram Chandra Gupta">
+                                </div>
+                                <p class="team-name">Ram Chandra Gupta</p>
+                            </div>
+
+                            <!-- Team Member 3 -->
+                            <div class="team-slide">
+                                <div class="team-member">
+                                    <div class="team-hover-overlay"></div>
+                                    <img src="image/t3.png" alt="Prabhushanker C">
+                                </div>
+                                <p class="team-name">Prabhushanker C</p>
+                            </div>
+
+                            <!-- Team Member 4 -->
+                            <div class="team-slide">
+                                <div class="team-member special-member">
+                                    <div class="team-hover-overlay"></div>
+                                    <img src="image/t4.png" alt="Dr. Bhupinder Singh">
+                                </div>
+                                <p class="team-name">Dr. Bhupinder Singh</p>
+                            </div>
+
+                            <!-- Team Member 5 -->
+                            <div class="team-slide">
+                                <div class="team-member special-member">
+                                    <div class="team-hover-overlay"></div>
+                                    <img src="image/t4.png" alt="Abhinav Singh">
+                                </div>
+                                <p class="team-name">Abhinav Singh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Connect with us for collaboration or inquiries regarding marine safety and detection technology</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Left Column: Contact Details -->
+                    <div class="contact-info-side">
+                        <a href="mailto:ramcgupta.ml@gmail.com" class="contact-card-v2 glass">
+                            <div class="contact-icon"><i class="bi bi-envelope-at-fill"></i></div>
+                            <div class="contact-detail">
+                                <h4>Email Address</h4>
+                                <span class="contact-text">ramcgupta.ml@gmail.com</span>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:8928150149" class="contact-card-v2 glass">
+                            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div class="contact-detail">
+                                <h4>Phone Number</h4>
+                                <span class="contact-text">8928150149</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://mrchandra.in" target="_blank" class="contact-card-v2 glass">
+                            <div class="contact-icon"><i class="bi bi-globe"></i></div>
+                            <div class="contact-detail">
+                                <h4>Personal Website</h4>
+                                <span class="contact-text">mrchandra.in</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/chandra142/" target="_blank" class="contact-card-v2 glass">
+                            <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+                            <div class="contact-detail">
+                                <h4>LinkedIn Profile</h4>
+                                <span class="contact-text">linkedin.com/in/chandra142</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/Chandra142" target="_blank" class="contact-card-v2 glass">
+                            <div class="contact-icon"><i class="bi bi-github"></i></div>
+                            <div class="contact-detail">
+                                <h4>GitHub Repository</h4>
+                                <span class="contact-text">github.com/Chandra142</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Right Column: Contact Form -->
+                    <div class="contact-form-side glass">
+                        <form id="marine-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <div class="input-wrapper">
+                                    <i class="bi bi-person"></i>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="off" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <div class="input-wrapper">
+                                    <i class="bi bi-envelope"></i>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" autocomplete="off" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <div class="input-wrapper">
+                                    <i class="bi bi-chat-left-text"></i>
+                                    <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn" id="contact-submit">
+                                <span>Send Message</span>
+                                <i class="bi bi-send-fill"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .contact-section { padding: 10rem 0; background: var(--bg-dark); }
+                .contact-grid { display: grid !important; grid-template-columns: 1fr 1.5fr !important; gap: 4rem !important; align-items: start !important; max-width: 1200px !important; margin: 0 auto !important; }
+                .contact-info-side { display: flex !important; flex-direction: column !important; gap: 1.5rem !important; text-align: left !important; }
+                .contact-card-v2 { display: flex !important; align-items: center !important; padding: 1.5rem 2rem !important; border-radius: 1.5rem !important; border: 1px solid var(--glass-border) !important; background: var(--bg-card) !important; backdrop-filter: var(--blur) !important; transition: all 0.3s ease !important; text-decoration: none !important; }
+                .contact-card-v2:hover { transform: translateX(10px) !important; border-color: var(--primary) !important; box-shadow: var(--shadow-glow) !important; }
+                .contact-icon { width: 3.5rem !important; height: 3.5rem !important; background: rgba(0, 210, 255, 0.1) !important; border-radius: 1rem !important; display: flex !important; align-items: center !important; justify-content: center !important; font-size: 1.5rem !important; color: var(--primary) !important; margin-right: 1.5rem !important; flex-shrink: 0 !important; }
+                .contact-card-v2:hover .contact-icon { background: var(--primary) !important; color: #fff !important; transform: rotate(-10deg) !important; }
+                .contact-detail { text-align: left !important; }
+                .contact-detail h4 { margin: 0 0 0.25rem 0 !important; font-family: "Orbitron", sans-serif !important; font-size: 0.8rem !important; color: var(--primary) !important; text-transform: uppercase !important; letter-spacing: 1px !important; }
+                .contact-text { color: #fff !important; font-size: 1.1rem !important; font-weight: 500 !important; }
+                .contact-form-side { padding: 3rem !important; border-radius: 2rem !important; border: 1px solid var(--glass-border) !important; background: var(--bg-card) !important; backdrop-filter: var(--blur) !important; }
+                .contact-form { display: flex !important; flex-direction: column !important; gap: 2rem !important; text-align: left !important; }
+                .form-group { display: flex !important; flex-direction: column !important; gap: 0.75rem !important; }
+                .form-group label { color: var(--text-muted) !important; font-size: 0.95rem !important; text-align: left !important; display: block !important; }
+                .input-wrapper { position: relative !important; display: flex !important; align-items: center !important; }
+                .input-wrapper i { position: absolute !important; left: 1.25rem !important; color: var(--primary) !important; font-size: 1.1rem !important; z-index: 2 !important; }
+                .input-wrapper input, .input-wrapper textarea { width: 100% !important; padding: 1rem 1rem 1rem 3.5rem !important; background: rgba(255, 255, 255, 0.05) !important; border: 1px solid var(--glass-border) !important; border-radius: 1rem !important; color: #fff !important; font-family: inherit !important; outline: none !important; transition: all 0.3s ease !important; }
+                .input-wrapper input:focus, .input-wrapper textarea:focus { border-color: var(--primary) !important; background: rgba(255, 255, 255, 0.08) !important; box-shadow: 0 0 15px rgba(0, 210, 255, 0.1) !important; }
+                .submit-btn { display: flex !important; align-items: center !important; justify-content: center !important; gap: 1rem !important; padding: 1.25rem !important; background: var(--primary-gradient) !important; border: none !important; border-radius: 1rem !important; color: #fff !important; font-family: "Orbitron", sans-serif !important; font-weight: 700 !important; cursor: pointer !important; transition: all 0.3s ease !important; }
+                .submit-btn:hover { transform: translateY(-3px) !important; box-shadow: var(--shadow-glow) !important; filter: brightness(1.1) !important; }
+                @media (max-width: 992px) {
+                    .contact-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+                    .contact-form-side { padding: 2rem !important; }
+                }
+            </style>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <!-- Social Media Icons Column -->
+                    <div class="footer-social">
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <!-- Footer & Link Section -->
+                    <div class="footer-links">
+                        <p class="copyright">© 2025 Marine Oil Spill Detection. All rights reserved.</p>
+                        <p class="links">
+                            <a href="terms.html" class="link-item"> <i class="bi bi-file-earmark-text"></i><span>Terms</span> </a> |
+                            <a href="privacy.html" class="link-item"> <i class="bi bi-file-earmark-lock-fill"></i><span>Privacy Policy</span> </a> |
+                            <a href="contact.html" class="link-item"> <i class="bi bi-envelope-fill"></i><span>Contact</span> </a>
+                        </p>
+                    </div>
+
+                    <!-- Email Subscription Column -->
+                    <div class="footer-subscribe">
+                        <form action="#" method="post" class="subscribe-form">
+                            <input type="email" name="email" placeholder="Your email" required class="email-input" />
+                            <button type="submit" class="subscribe-button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Custom script for page -->
+        <script src="theme.js"></script>
+        <script src="script.js" defer></script>
+    </body>
+</html>

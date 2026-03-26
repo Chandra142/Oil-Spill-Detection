@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Port Locations Worldwide</title>
+        <link rel="icon" type="image/png" href="image/logo.png" />
+
+        <!-- Custom css for page -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Bootstrap Icons CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+        <!-- Leaflet css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container header-inner">
+                <a href="index.html" class="nav-logo-link" aria-label="MarineOS Home">
+                    <img src="image/logo.png" alt="MarineOS Logo" class="nav-logo" />
+                </a>
+                <h1>Marine Oil Spill Detection</h1>
+                <!-- Navigation menu for easy site access -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="map.html" class="active">Marine Traffic</a></li>
+                        <li><a href="history.html">Oil Spill History</a></li>
+                        <li><a href="detector.html">Oil Spill Detector</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme" title="Switch to Light Theme">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Marine Traffic -->
+            <!-- Marine Traffic -->
+            <section style="padding: 8rem 0 4rem;">
+                <div class="container text-center">
+                    <h2 class="section-title">Marine Traffic</h2>
+                    <p class="section-subtitle">Real-time visualization of global maritime activity and vessel distribution.</p>
+                    <div class="img-container glass" style="margin-top: 4rem; padding: 1.5rem; border-radius: 2rem;">
+                        <img class="img-m" src="image/m4.png"/>
+                        <img class="img-m" src="image/m5.png"/>
+                        <img class="img-m" src="image/m1.png"/>
+                        <img class="img-m" src="image/m2.png"/>
+                        <img class="img-m" src="image/m3.png"/>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map container -->
+            <!-- Map container -->
+            <section class="map-section" style="padding: 4rem 0;">
+                <div class="container">
+                    <a href="https://www.marinetraffic.com/en/ais/home/centerx:81.3/centery:18.4/zoom:4" target="_blank" style="text-decoration: none;">
+                        <h2 class="section-title">Port Locations Worldwide</h2>
+                    </a>
+                    <p class="section-subtitle">Explore high-resolution satellite imagery of global port locations and infrastructure.</p>
+                    <div id="map" class="glass" style="margin-top: 4rem; border-radius: 2rem; border: 1px solid var(--glass-border); box-shadow: var(--shadow-glow);"></div>
+                </div>
+            </section>
+
+            <!-- Map Image -->
+            <!-- Map Image -->
+            <section style="padding: 4rem 0 8rem;">
+                <div class="container text-center">
+                    <h2 class="section-title">Traffic Analysis</h2>
+                    <div class="glass" style="padding: 2rem; border-radius: 2rem; margin-top: 4rem;">
+                        <h3 style="color: #fff; font-family: 'Orbitron', sans-serif; margin-bottom: 2rem;">Vessel Traffic Density</h3>
+                        <img class="img-map" src="image/map1.png" alt="Marine Traffic" style="display: block; margin: 0 auto 4rem; max-width: 100%; border-radius: 1.5rem;" />
+                        <h3 style="color: #fff; font-family: 'Orbitron', sans-serif; margin-bottom: 2rem;">Regional Coverage</h3>
+                        <img class="img-map" src="image/map2.png" alt="Marine Traffic Density" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 1.5rem;" />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <!-- Social Media Icons Column -->
+                    <div class="footer-social">
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <!-- Footer & Link Section -->
+                    <div class="footer-links">
+                        <p class="copyright">© 2025 Marine Oil Spill Detection. All rights reserved.</p>
+                        <p class="links">
+                            <a href="terms.html" class="link-item"> <i class="bi bi-file-earmark-text"></i><span>Terms</span> </a> |
+                            <a href="privacy.html" class="link-item"> <i class="bi bi-file-earmark-lock-fill"></i><span>Privacy Policy</span> </a> |
+                            <a href="contact.html" class="link-item"> <i class="bi bi-envelope-fill"></i><span>Contact</span> </a>
+                        </p>
+                    </div>
+
+                    <!-- Email Subscription Column -->
+                    <div class="footer-subscribe">
+                        <form action="#" method="post" class="subscribe-form">
+                            <input type="email" name="email" placeholder="Your email" required class="email-input" />
+                            <button type="submit" class="subscribe-button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Custom script for page -->
+        <script src="port.js" defer></script>
+
+        <!-- Leaflet js-->
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="theme.js"></script>
+    </body>
+</html>
