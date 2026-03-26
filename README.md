@@ -1,139 +1,129 @@
-# 🌊 Marine Oil Spill Detection using Machine Learning
+🌊 Marine Oil Spill Detection using Machine Learning
 
-## 📌 Project Overview
-Marine oil spills pose a serious threat to ocean ecosystems, coastal regions, and marine life. Early and accurate detection is critical to minimize environmental damage and enable rapid response.
+🚀 A machine learning–based system for detecting marine oil spills using satellite imagery and AIS (Automatic Identification System) data.
 
-This project presents a **machine learning–based system** for detecting marine oil spills using **satellite imagery** and **Automatic Identification System (AIS)** vessel data. By combining image processing techniques with classification models, the system aims to automatically identify oil spills and distinguish them from similar surface anomalies such as algal blooms or ship wakes.
+📌 Project Overview
 
----
+Marine oil spills are a major environmental hazard affecting oceans, marine biodiversity, and coastal ecosystems. Early detection is critical for minimizing damage.
 
-## 🎯 Objectives
-- Develop an automated oil spill detection system using machine learning  
-- Utilize satellite imagery and AIS data for improved accuracy  
-- Implement classification algorithms such as **SVM** and **Random Forest**  
-- Enable real-time or near real-time oil spill monitoring  
-- Support environmental agencies in faster decision-making and response  
+This project leverages Machine Learning + Satellite Data to automatically detect oil spills and differentiate them from similar patterns like:
 
----
+Algal blooms
+Ship wakes
+Ocean surface noise
+🎯 Objectives
+✅ Build an automated oil spill detection system
+🛰️ Use satellite imagery + AIS vessel data
+🤖 Apply ML models (SVM, Random Forest)
+⏱️ Enable near real-time monitoring
+🌍 Support environmental protection agencies
+🧠 Methodology
+1️⃣ Data Collection
+Satellite Imagery:
+Sentinel-1
+MODIS
+Landsat
+AIS Data:
+Ship movement tracking
+Vessel behavior analysis
+2️⃣ Data Preprocessing
+Noise reduction
+Contrast enhancement
+Feature extraction:
+Texture
+Shape
+Spectral features
+Data normalization
+Handling missing AIS data
+3️⃣ Machine Learning Models
+Support Vector Machine (SVM)
+Random Forest
+(Optional) CNN (Deep Learning)
+K-Means clustering (for anomaly detection)
+4️⃣ Model Evaluation
+Train/Test Split: 80/20
 
-## 🧠 Methodology
+Metrics Used:
 
-### 1. Data Collection
-- **Satellite Imagery**: Sentinel-1, MODIS, Landsat  
-- **AIS Data**: Vessel movement and activity tracking  
+Accuracy
+Precision
+Recall
+F1-score
+False Positive Rate
 
-### 2. Data Preprocessing
-- Image enhancement (noise reduction, contrast adjustment)
-- Feature extraction (texture, shape, spectral features)
-- Data normalization
-- Handling missing AIS data
+🏗️ System Architecture
+Input Layer
+   ↓
+Preprocessing Layer
+   ↓
+ML Processing Layer
+   ↓
+Visualization Layer (GIS Maps)
+   ↓
+Alert System 🚨
+🛠️ Technologies Used
+💻 Programming Language
+Python
+📚 Libraries & Frameworks
+TensorFlow
+Scikit-learn
+OpenCV
+NumPy
+Pandas
+Matplotlib
+🧰 Tools & Platforms
+Google Earth Engine
+GDAL
+PostgreSQL / PostGIS
+Jupyter Notebook / VS Code
+💻 Requirements
+🖥️ Software
+Python 3.x
+Windows / Linux
+Google Earth Engine API
+Sentinel Hub API
+⚙️ Hardware
+Intel i5 or higher
+Minimum 8GB RAM (16GB recommended)
+NVIDIA GPU (for deep learning)
+100GB+ storage
+📊 Expected Outcomes
+✅ Automated oil spill detection
+🎯 Improved accuracy with reduced false positives
+⚡ Faster response time
+💰 Cost-effective monitoring solution
+📈 Scalable for other pollution detection
+⚠️ Challenges & Limitations
+Limited labeled datasets
+High computational cost
+Confusion with similar ocean patterns
+Real-time constraints
+🚀 Future Enhancements
+🧠 Deep Learning (CNN-based models)
+⚡ Real-time processing optimization
+📡 Integration with live satellite APIs
+🌊 Detection of plastic pollution & other contaminants
+👨‍💻 Contributors
+Ram Chandra Gupta
+Afzal Khan
+Prabhushankar C
 
-### 3. Machine Learning Models
-- **Support Vector Machine (SVM)**
-- **Random Forest**
-- *(Optional)* CNN for advanced image recognition
-- K-Means clustering for anomaly detection
+🎓 B.Tech – Computer Science & Engineering
+🏫 Lovely Professional University, Punjab
 
-### 4. Model Evaluation
-- Train-test split (80% training, 20% testing)
-- Metrics used:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1-score
-  - False Positive Rate
+📚 References
+ESA Sentinel-1 SAR Data
+NASA Earth Observatory
+Bishop, C. M. — Pattern Recognition and Machine Learning
+Research papers on ML-based oil spill detection
+📄 License
 
----
+📘 This project is developed for academic purposes under Lovely Professional University.
 
-## 🏗️ System Architecture
-1. **Input Layer** – Satellite images and AIS data  
-2. **Preprocessing Layer** – Image cleaning and feature extraction  
-3. **ML Processing Layer** – Oil spill classification  
-4. **Visualization Layer** – GIS-based map output  
-5. **Alert System** – Notification for detected oil spills  
+⭐ Support
 
----
+If you find this project useful:
 
-## 🛠️ Technologies Used
-
-### Programming Language
-- Python
-
-### Libraries & Frameworks
-- TensorFlow
-- Scikit-learn
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-
-### Tools & Platforms
-- Google Earth Engine
-- GDAL
-- PostgreSQL / PostGIS
-- Jupyter Notebook / VS Code
-
----
-
-## 💻 Hardware & Software Requirements
-
-### Software
-- Windows / Linux
-- Python 3.x
-- Google Earth Engine API
-- Sentinel Hub API
-
-### Hardware
-- Intel Core i5 or higher
-- Minimum 8GB RAM (16GB recommended)
-- NVIDIA GPU (for deep learning models)
-- At least 100GB storage
-
----
-
-## 📊 Expected Outcomes
-- Accurate and automated oil spill detection
-- Reduced false positives
-- Faster response time for authorities
-- Cost-effective alternative to manual monitoring
-- Scalable system for other marine pollution detection
-
----
-
-## ⚠️ Limitations & Challenges
-- Limited availability of labeled oil spill datasets
-- High computational requirements for satellite data processing
-- Difficulty in differentiating oil spills from similar surface anomalies
-- Real-time processing constraints
-
----
-
-## 🚀 Future Enhancements
-- Integrate deep learning models (CNNs)
-- Improve real-time detection performance
-- Reduce false positives using additional environmental data
-- Expand system to detect other marine pollutants like plastic waste
-
----
-
-## 👨‍💻 Project Contributors
-- **Afzal Khan**
-- **Ram Chandra Gupta**
-- **Prabhushankar C**
-
-Bachelor of Technology  
-Computer Science and Engineering  
-Lovely Professional University, Punjab  
-
----
-
-## 📚 References
-- ESA Sentinel-1 SAR Data for Oil Spill Detection  
-- NASA Earth Observatory – Marine Pollution Monitoring  
-- Bishop, C. M. *Pattern Recognition and Machine Learning*  
-- Research papers on ML-based oil spill detection  
-
----
-
-## 📄 License
-This project is developed for academic purposes under Lovely Professional University guidelines.
+⭐ Star the repository
+🍴 Fork it
+🤝 Contribute
