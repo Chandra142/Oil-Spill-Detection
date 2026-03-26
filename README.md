@@ -1,57 +1,55 @@
-
 <div align="center">
   <div style="background-color: #fff; display: inline-block; padding: 10px; border-radius: 50%;">
       <img src="https://img.icons8.com/color/96/000000/water.png" alt="Marine Oil Spill Detection Logo" width="80" height="80">
   </div>
-  <h1 align="center">Marine Oil Spill Detection</h1>
-  
+  <h1 align="center">🌊 Marine Oil Spill Detection</h1>
+
   <p align="center">
     <strong>Monitor, analyze, and detect marine oil spills with cutting-edge technology and AI analytics.</strong>
-    <br />
-    <a href="https://github.com/afzalkhanofficial/Marine-Oil-Spill-Detection"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#">View Demo</a>
+    <br /><br />
+    <a href="https://oil-spill-detection-nine.vercel.app/detector.html"><strong>🚀 View Live Demo</strong></a>
     ·
-    <a href="https://github.com/afzalkhanofficial/Marine-Oil-Spill-Detection/issues">Report Bug</a>
+    <a href="https://github.com/Chandra142/Oil-Spill-Detection"><strong>📂 Repository</strong></a>
     ·
-    <a href="https://github.com/afzalkhanofficial/Marine-Oil-Spill-Detection/issues">Request Feature</a>
+    <a href="https://github.com/Chandra142/Oil-Spill-Detection/issues">🐛 Report Bug</a>
+    ·
+    <a href="https://github.com/Chandra142/Oil-Spill-Detection/issues">💡 Request Feature</a>
   </p>
 </div>
 
+---
+
 <!-- Badges -->
+
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
 </div>
 
+---
+
 <!-- Contributors -->
+
 <div align="center">
-  <h3>✨Contributors</h3>
-  <table style="border: none;">
-    <tr style="border: none;">
-      <td align="center" style="border: none;">
-        <a href="#">
-          <img src="image/t1.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" alt="Afzal Khan">
-        </a>
+  <h3>✨ Contributors</h3>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="image/t1.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" />
         <br />
         <strong>Afzal Khan</strong>
       </td>
-      <td align="center" style="border: none;">
-        <a href="#">
-          <img src="image/t2.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" alt="Ram Chandra Gupta">
-        </a>
+      <td align="center">
+        <img src="image/t2.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" />
         <br />
-        <strong>Ram Chandra G.</strong>
+        <strong>Ram Chandra Gupta</strong>
       </td>
-      <td align="center" style="border: none;">
-        <a href="#">
-          <img src="image/t3.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" alt="Prabhushanker C">
-        </a>
+      <td align="center">
+        <img src="image/t3.png" width="80" style="border-radius: 50%; border: 3px dotted #2563eb;" />
         <br />
         <strong>Prabhushanker C</strong>
       </td>
@@ -63,84 +61,181 @@
 
 ## 📖 About The Project
 
-**Marine Oil Spill Detection** is an advanced environmental monitoring system designed to protect marine ecosystems. Oil spills destroy marine habitats and affect over 800 species annually. Our system combines satellite imagery, AI analysis, and real-time monitoring to combat oil pollution effectively.
+Marine Oil Spill Detection is an advanced environmental monitoring system designed to protect marine ecosystems. Oil spills destroy marine habitats and affect over **800 species annually**.
 
-Our mission is to provide early spill detection within 2 hours of occurrence with high accuracy, enabling rapid response and historical data analysis for prevention strategies.
+This system combines:
 
-### ✨ Key Features
+* 🛰️ Satellite imagery (Sentinel, MODIS, Landsat)
+* 🤖 Machine Learning models (SVM, Random Forest)
+* 🌍 Real-time monitoring & geospatial analytics
 
-* **Interactive Map:** Visualize current marine traffic and past oil spill events on a dynamic, interactive map powered by Leaflet.js.
-* **Historical Data:** Analyze trends with detailed historical graphs to enhance prevention strategies.
-* **AI Image Detection:** Employ Deep Learning models (TensorFlow/Keras) trained on satellite imagery to detect potential oil spills with up to 95% accuracy.
-* **Real-time Monitoring:** 24/7 monitoring capabilities utilizing Earth observation satellites like Sentinel-2.
-* **Intelligent Infrastructure:** Uses scalable cloud infrastructure and geospatial analysis to process and render multispectral data.
+### 🎯 Mission
 
----
-
-## 🛠️ Built With
-
-* [HTML5 & CSS3](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Python & Flask](https://palletsprojects.com/p/flask/)
-* [TensorFlow & OpenCV](https://www.tensorflow.org/)
-* [Leaflet.js & GeoPandas](https://leafletjs.com/)
+* Detect oil spills within **2 hours**
+* Achieve up to **95% accuracy**
+* Provide historical insights for prevention
 
 ---
 
-## 🚀 User Flow
+## ✨ Key Features
+
+* 🗺️ **Interactive Map** – Visualize marine traffic & oil spills
+* 📊 **Historical Data Analysis** – Explore trends
+* 🤖 **AI-Based Detection** – ML-powered classification
+* ⏱️ **24/7 Monitoring** – Continuous tracking
+* ☁️ **Cloud Infrastructure** – Scalable processing
+
+---
+
+## 🧠 Methodology
+
+### 1️⃣ Data Collection
+
+* Satellite imagery (Sentinel-1, MODIS, Landsat)
+* AIS vessel tracking data
+
+### 2️⃣ Data Preprocessing
+
+* Noise reduction
+* Feature extraction (texture, shape, spectral)
+* Normalization
+
+### 3️⃣ Machine Learning Models
+
+* Support Vector Machine (SVM)
+* Random Forest
+* (Optional) CNN
+* K-Means clustering
+
+### 4️⃣ Model Evaluation
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+
+---
+
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
-    A[User Visits Landing Page] --> B{Choose Section}
-    B -->|Click 'Marine Traffic'| C[Interactive Map view]
-    B -->|Click 'Oil Spill History'| D[Historical Data & Graphs]
-    B -->|Click 'Oil Spill Detector'| E[Upload/Fetch Satellite Image]
-    
-    E --> F[Run Deep Learning Model]
-    F --> G[Extract Multispectral Features]
-    G --> H[Predict Oil Spill Presence]
-    H --> I[Display Detection Results & Accuracy]
+    A[Satellite + AIS Data] --> B[Preprocessing]
+    B --> C[Feature Extraction]
+    C --> D[ML Models]
+    D --> E[Detection Output]
+    E --> F[Visualization]
+    F --> G[Alert System]
 ```
+
+---
+
+## 🔄 User Flow
+
+```mermaid
+graph TD
+    A[User Visits Website] --> B{Choose Feature}
+    B -->|Traffic| C[Interactive Map]
+    B -->|History| D[View Analytics]
+    B -->|Detector| E[Upload Image]
+    
+    E --> F[Run AI Model]
+    F --> G[Feature Extraction]
+    G --> H[Prediction]
+    H --> I[Display Results]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Languages
+
+* Python
+* JavaScript
+
+### 📚 Libraries
+
+* TensorFlow
+* Scikit-learn
+* OpenCV
+* NumPy
+* Pandas
+
+### 🌍 Tools
+
+* Leaflet.js
+* GeoPandas
+* PostGIS
+* Google Earth Engine
+
+---
+
+## 🚀 Live Demo
+
+👉 https://oil-spill-detection-nine.vercel.app/detector.html
 
 ---
 
 ## 💻 Getting Started
 
-This project consists of an interactive front-end that connects to a Python-based intelligent backend for real-time AI processing.
+```bash
+git clone https://github.com/Chandra142/Oil-Spill-Detection.git
+cd Oil-Spill-Detection
+```
 
-### Prerequisites
+Run locally:
 
-You simply need a modern web browser and Python 3.x installed on your local machine for full functionality.
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/afzalkhanofficial/Marine-Oil-Spill-Detection.git
-   ```
-2. Navigate to the project directory
-   ```sh
-   cd Marine-Oil-Spill-Detection
-   ```
-3. Open `index.html` in your browser, or start a local server:
-   ```sh
-   # If you use Node.js
-   npx serve .
-   
-   # Or using Python's built-in server
-   python -m http.server 8000
-   ```
-4. Access the app by navigating to `http://localhost:8000` (or `http://localhost:3000` for `serve`).
+```bash
+npx serve .
+# OR
+python -m http.server 8000
+```
 
 ---
 
-## 📜 License
+## 📊 Expected Outcomes
 
-Distributed under the MIT License. See `LICENSE` for more information.
+* Automated oil spill detection
+* Reduced false positives
+* Faster environmental response
+* Scalable monitoring system
+
+---
+
+## ⚠️ Limitations
+
+* Limited labeled datasets
+* High computational cost
+* Real-time constraints
+
+---
+
+## 🚀 Future Enhancements
+
+* Deep Learning models (CNN)
+* Real-time API integration
+* Mobile application
+* Alert systems (SMS/Email)
+
+---
+
+## 📚 References
+
+* ESA Sentinel Data
+* NASA Earth Observatory
+* ML Research Papers
+
+---
+
+## 📄 License
+
+This project is developed for **academic purposes**.
+
+---
 
 <div align="center">
-  <br />
-  Made with 💙 by the <b>Marine Oil Spill Detection</b> team
+  ⭐ Star the repo if you like it  
+  <br /><br />
+  💙 Made with passion for protecting oceans
 </div>
-
